@@ -16,4 +16,14 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="TextStyle">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="InputStyle">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>
