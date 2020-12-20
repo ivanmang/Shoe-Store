@@ -9,4 +9,9 @@
     <string name="enter_your_email">Enter your email</string>
     <string name="creating_account_text">Creating Account</string>
     <string name="login_in_with_existing_account">Login in with existing account</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_text"><![CDATA[Welcome to our store! Discover the latest styles of brand name shoes for women, men & kids today.]]></string>
+    <string name="instruction">Instruction</string>
+    <string name="instruction_text">Find the shoes that you are interested, press the dertail button for more details!</string>
+    <string name="shoe_list_button">Shoe List</string>
 </resources>
