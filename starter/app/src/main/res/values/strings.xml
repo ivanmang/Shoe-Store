@@ -14,4 +14,8 @@
     <string name="instruction">Instruction</string>
     <string name="instruction_text">Find the shoes that you are interested, press the dertail button for more details!</string>
     <string name="shoe_list_button">Shoe List</string>
+    <string name="shoe_describe">Nike sport shoe</string>
+    <string name="information">This is the information button</string>
+    <string name="list_of_shoes">List of Shoes</string>
+    <string name="click_here_for_more_info" >Click Here for more information</string>
 </resources>
