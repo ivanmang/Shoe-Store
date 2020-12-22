@@ -24,13 +24,24 @@
     <ScrollView
         android:id="@+id/scroll_shoe_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:id="@+id/shoe_list_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/detail_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true"
+                android:contentDescription="@string/click_to_add_more_shoes"
+                android:focusable="true"
+                app:backgroundTint="@color/light_blue_400"
+                app:srcCompat="@drawable/ic_add" />
         </LinearLayout>
     </ScrollView>
 

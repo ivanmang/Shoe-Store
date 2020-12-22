@@ -35,6 +35,7 @@
 
         <TextView
             android:id="@+id/login_text"
+            style="@style/TitleStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login_text"
@@ -72,6 +73,7 @@
 
         <Button
             android:id="@+id/creating_account_button"
+            style="@style/buttonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -86,6 +88,7 @@
 
         <Button
             android:id="@+id/login_in_with_existing_account_button"
+            style="@style/buttonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
