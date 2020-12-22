@@ -18,4 +18,6 @@
     <string name="information">This is the information button</string>
     <string name="list_of_shoes">List of Shoes</string>
     <string name="click_here_for_more_info" >Click Here for more information</string>
+    <string name="detail">Detail</string>
+    <string name="click_for_more_info">Click for more information</string>
 </resources>
