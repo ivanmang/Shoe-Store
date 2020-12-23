@@ -30,4 +30,5 @@
     <string name="click_to_add_more_shoes">Click to add more shoes</string>
     <string name="description">Description</string>
     <string name="shoe_store">Shoe Store</string>
+    <string name="logout">Logout</string>
 </resources>

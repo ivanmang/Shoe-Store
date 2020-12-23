@@ -22,7 +22,7 @@
         <ImageView
             android:id="@+id/shoe_image"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="202dp"
             android:contentDescription="@string/shoe_describe"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
