@@ -40,19 +40,9 @@ class ShoeDetailFragment : Fragment() {
         binding.cancelButton.setOnClickListener{ view ->
             view.findNavController().navigate(R.id.action_shoeDetailFragment_to_shoeListFragment)
         }
-        setHasOptionsMenu(true)
 
         return binding.root
     }
 
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        super.onCreateOptionsMenu(menu, inflater)
-        inflater.inflate(R.menu.logout_menu, menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
-                || super.onOptionsItemSelected(item)
-    }
 
 }

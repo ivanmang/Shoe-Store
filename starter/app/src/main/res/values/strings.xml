@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">ShoeStore</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="password_text">Password:</string>
     <string name="login_text">Shoe Store Login</string>
     <string name="enter_your_password">Enter your password</string>
@@ -31,4 +29,5 @@
     <string name="description">Description</string>
     <string name="shoe_store">Shoe Store</string>
     <string name="logout">Logout</string>
+    <string name="fragment_shoe_list">ShoeListFragment</string>
 </resources>
