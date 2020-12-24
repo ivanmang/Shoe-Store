@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
+    <!--Since I want to text to align in a more flexible way, I use constraint layout-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

@@ -15,21 +15,16 @@ class ShoeListViewModel : ViewModel() {
         _listOfShoe.value = shoeList
     }
 
-    override fun onCleared() {
-        super.onCleared()
-    }
 
-
-    lateinit var shoeList : MutableList<Shoe>
+    lateinit var shoeList: MutableList<Shoe>
     private fun initList() {
         shoeList = mutableListOf()
 
     }
 
-    fun addShoe(name: String, size: Double, company: String, description: String) {
-        shoeList.add(Shoe(name, size, company, description))
+    fun addShoe(shoe: Shoe) {
+        shoeList.add(shoe)
     }
-
 
 
 }
